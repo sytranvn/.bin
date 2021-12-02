@@ -1,2 +1,2 @@
-# bin
-User bin
+# .bin
+User `.bin` folder. Contain useful binaries 😙
