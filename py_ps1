@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+pyloc=$(which python3)
+if [[ $pyloc != /usr/bin/python3 ]]; then
+    prefix=""
+    if [[ $pyloc =~ .*[.]direnv.* ]]; then
+        prefix=$(basename "${pyloc/\/.direnv*/ /}")
+    fi
+    echo "<${prefix}$(python3 -V)>"
+fi
+
