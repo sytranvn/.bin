@@ -1,5 +1,5 @@
 # .bin
-User `.bin` folder. Contain useful binaries 😙
+User `.bin` folder. Contain useful executables 😙
 
 ## Install
 ```shell
